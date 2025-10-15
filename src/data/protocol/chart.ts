@@ -15,8 +15,8 @@ dayjs.extend(weekOfYear)
 const ONE_DAY_UNIX = 24 * 60 * 60
 
 const GLOBAL_CHART = gql`
-  query pegasysDayDatas($startTime: Int!, $skip: Int!) {
-    pegasysDayDatas(
+  queryjingoDayDatas($startTime: Int!, $skip: Int!) {
+   jingoDayDatas(
       first: 1000
       skip: $skip
       subgraphError: allow
@@ -33,7 +33,7 @@ const GLOBAL_CHART = gql`
 `
 
 interface ChartResults {
-  pegasysDayDatas: {
+ jingoDayDatas: {
     date: number
     volumeUSD: string
     tvlUSD: string
