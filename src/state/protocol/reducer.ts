@@ -34,7 +34,7 @@ export interface ProtocolState {
 }
 
 export const initialState: ProtocolState = {
-  [SupportedNetwork.ROLLUX]: {
+  [SupportedNetwork.PLASMA]: {
     data: undefined,
     chartData: undefined,
     transactions: undefined,

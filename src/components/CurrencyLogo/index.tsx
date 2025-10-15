@@ -10,7 +10,7 @@ import { SupportedChainId } from '@pollum-io/sdk-core'
 
 export function chainIdToNetworkName(networkId: SupportedChainId) {
   switch (networkId) {
-    case SupportedChainId.ROLLUX:
+    case SupportedChainId.PLASMA:
       return 'rollux'
     default:
       return 'rollux'

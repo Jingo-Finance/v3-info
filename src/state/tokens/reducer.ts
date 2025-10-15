@@ -66,7 +66,7 @@ export interface TokensState {
 
 export const initialState: TokensState = {
   byAddress: {
-    [SupportedNetwork.ROLLUX]: {},
+    [SupportedNetwork.PLASMA]: {},
   },
 }
 

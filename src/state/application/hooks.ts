@@ -118,7 +118,7 @@ export function useActiveNetworkVersion(): [NetworkInfo, (activeNetworkVersion: 
 export function useDataClient(): ApolloClient<NormalizedCacheObject> {
   const [activeNetwork] = useActiveNetworkVersion()
   switch (activeNetwork.id) {
-    case SupportedNetwork.ROLLUX:
+    case SupportedNetwork.PLASMA:
       return client
     default:
       return client
@@ -129,7 +129,7 @@ export function useDataClient(): ApolloClient<NormalizedCacheObject> {
 export function useBlockClient(): ApolloClient<NormalizedCacheObject> {
   const [activeNetwork] = useActiveNetworkVersion()
   switch (activeNetwork.id) {
-    case SupportedNetwork.ROLLUX:
+    case SupportedNetwork.PLASMA:
       return blockClient
     default:
       return blockClient

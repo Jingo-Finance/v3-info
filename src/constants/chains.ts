@@ -1,3 +1,3 @@
 export enum SupportedChainId {
-  ROLLUX = 570,
+  PLASMA = 9745,
 }

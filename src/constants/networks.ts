@@ -2,7 +2,7 @@ import ROLLUX_LOGO_URL from '../assets/images/Rollux-1.svg'
 import { SupportedChainId } from '@pollum-io/sdk-core'
 
 export enum SupportedNetwork {
-  ROLLUX,
+  PLASMA,
 }
 
 export type NetworkInfo = {
@@ -18,10 +18,10 @@ export type NetworkInfo = {
 }
 
 export const EthereumNetworkInfo: NetworkInfo = {
-  chainId: SupportedChainId.ROLLUX,
-  id: SupportedNetwork.ROLLUX,
+  chainId: SupportedChainId.PLASMA,
+  id: SupportedNetwork.PLASMA,
   route: '',
-  name: 'Rollux',
+  name: 'Plasma',
   bgColor: '#fc077d',
   primaryColor: '#fc077d',
   secondaryColor: '#2172E5',

@@ -84,7 +84,7 @@ export interface PoolsState {
 
 export const initialState: PoolsState = {
   byAddress: {
-    [SupportedNetwork.ROLLUX]: {},
+    [SupportedNetwork.PLASMA]: {},
   },
 }
 

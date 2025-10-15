@@ -50,7 +50,7 @@ export function useWETHContract(withSignerIfPossible?: boolean): Contract | null
 export function useArgentWalletDetectorContract(): Contract | null {
   const { chainId } = useActiveWeb3React()
   return useContract(
-    chainId === SupportedChainId.ROLLUX ? ARGENT_WALLET_DETECTOR_MAINNET_ADDRESS : undefined,
+    chainId === SupportedChainId.PLASMA ? ARGENT_WALLET_DETECTOR_MAINNET_ADDRESS : undefined,
     ARGENT_WALLET_DETECTOR_ABI,
     false
   )
@@ -61,7 +61,7 @@ export function useENSRegistrarContract(withSignerIfPossible?: boolean): Contrac
   let address: string | undefined
   if (chainId) {
     switch (chainId) {
-      case SupportedChainId.ROLLUX:
+      case SupportedChainId.PLASMA:
         address = '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e'
         break
     }
