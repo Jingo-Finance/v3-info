@@ -221,7 +221,7 @@ export default function PoolPage({
             {activeNetwork !== EthereumNetworkInfo ? null : (
               <RowFixed>
                 <StyledExternalLink
-                  href={`https://app.pegasys.fi/#/add/${poolData.token0.address}/${poolData.token1.address}/${poolData.feeTier}`}
+                  href={`https://app.jingo.finance/#/add/${poolData.token0.address}/${poolData.token1.address}/${poolData.feeTier}`}
                 >
                   <ButtonGray width="170px" mr="12px" style={{ height: '44px' }}>
                     <RowBetween>
@@ -231,7 +231,7 @@ export default function PoolPage({
                   </ButtonGray>
                 </StyledExternalLink>
                 <StyledExternalLink
-                  href={`https://app.pegasys.fi/#/swap?inputCurrency=${poolData.token0.address}&outputCurrency=${poolData.token1.address}`}
+                  href={`https://app.jingo.finance/#/swap?inputCurrency=${poolData.token0.address}&outputCurrency=${poolData.token1.address}`}
                 >
                   <ButtonPrimary width="100px" bgColor={theme.accentAction} style={{ height: '44px' }}>
                     Trade

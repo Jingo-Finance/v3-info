@@ -170,7 +170,7 @@ export default function TokenPage({
         !tokenData.exists ? (
           <LightGreyCard style={{ textAlign: 'center' }}>
             No pool has been created with this token yet. Create one
-            <StyledExternalLink style={{ marginLeft: '4px' }} href={`https://app.pegasys.fi/#/add/${address}`}>
+            <StyledExternalLink style={{ marginLeft: '4px' }} href={`https://app.jingo.finance/#/add/${address}`}>
               here.
             </StyledExternalLink>
           </LightGreyCard>
@@ -233,7 +233,7 @@ export default function TokenPage({
                 </AutoColumn>
                 {activeNetwork !== EthereumNetworkInfo ? null : (
                   <RowFixed>
-                    <StyledExternalLink href={`https://app.pegasys.fi/#/add/${address}`}>
+                    <StyledExternalLink href={`https://app.jingo.finance/#/add/${address}`}>
                       <ButtonGray width="170px" mr="12px" height={'100%'} style={{ height: '44px' }}>
                         <RowBetween>
                           <Download size={24} />
@@ -241,7 +241,7 @@ export default function TokenPage({
                         </RowBetween>
                       </ButtonGray>
                     </StyledExternalLink>
-                    <StyledExternalLink href={`https://app.pegasys.fi/#/swap?inputCurrency=${address}`}>
+                    <StyledExternalLink href={`https://app.jingo.finance/#/swap?inputCurrency=${address}`}>
                       <ButtonPrimary width="100px" bgColor={theme.accentAction} style={{ height: '44px' }}>
                         Trade
                       </ButtonPrimary>

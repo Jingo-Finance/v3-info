@@ -103,7 +103,7 @@
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
     "storybook": "start-storybook -p 6006",
     "test": "react-scripts test --env=jsdom",
-    "codegen:schema": "npx apollo client:download-schema --endpoint=https://rollux.graph.pegasys.fi/subgraphs/name/pollum-io/pegasys-v3",
+    "codegen:schema": "npx apollo client:download-schema --endpoint=https://rollux.graph.jingo.finance/subgraphs/name/pollum-io/pegasys-v3",
     "codegen:generate": "npx apollo codegen:generate --localSchemaFile=schema.json --target=typescript --includes=src/**/*.ts --tagName=gql --addTypename --globalTypesFile=src/types/graphql-global-types.ts types"
   },
   "eslintConfig": {

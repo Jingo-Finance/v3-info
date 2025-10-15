@@ -36,9 +36,9 @@ const TopBar = () => {
           </RowFixed>
         </AutoRow>
         <AutoRow gap="6px" style={{ justifyContent: 'flex-end' }}>
-          <StyledLink href="https://info.pegasys.finance/">V1 Analytics</StyledLink>
-          <StyledLink href="https://docs.pegasys.fi/">Docs</StyledLink>
-          <StyledLink href="https://app.pegasys.fi/">App</StyledLink>
+          <StyledLink href="https://info./jingo.finance/">V1 Analytics</StyledLink>
+          <StyledLink href="https://docs.jingo.finance/">Docs</StyledLink>
+          <StyledLink href="https://app.jingo.finance/">App</StyledLink>
         </AutoRow>
       </RowBetween>
     </Wrapper>

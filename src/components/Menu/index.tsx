@@ -96,11 +96,11 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://app.pegasys.fi/">
+          <MenuItem id="link" href="https://app.jingo.finance/">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://docs.pegasys.fi/">
+          <MenuItem id="link" href="https://docs.jingo.finance/">
             <BookOpen size={14} />
             Docs
           </MenuItem>

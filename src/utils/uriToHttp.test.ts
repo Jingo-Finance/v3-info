@@ -17,9 +17,9 @@ describe('uriToHttp', () => {
     ])
   })
   it('returns ipns gateways for ipns:// urls', () => {
-    expect(uriToHttp('ipns://app.pegasys.fi')).toEqual([
-      'https://cloudflare-ipfs.com/ipns/app.pegasys.fi/',
-      'https://ipfs.io/ipns/app.pegasys.fi/',
+    expect(uriToHttp('ipns://app.jingo.finance')).toEqual([
+      'https://cloudflare-ipfs.com/ipns/app.jingo.finance/',
+      'https://ipfs.io/ipns/app.jingo.finance/',
     ])
   })
   it('returns empty array for invalid scheme', () => {
