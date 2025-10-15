@@ -2,7 +2,7 @@
 
 An open sourced interface for Jingo V3 analytics.
 
-Info URL: https://info.jingo.finance/#/
+Info URL: https://info.jingo.finance
 
 ## Development
 
