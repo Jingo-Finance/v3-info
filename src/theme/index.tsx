@@ -90,9 +90,9 @@ export function colors(darkMode: boolean): Colors {
     blue1: '#2172E5',
     blue2: '#5199FF',
 
-    backgroundPegasys: darkMode ? '#010101' : '#e6faff',
+    backgroundJingo: darkMode ? '#010101' : '#e6faff',
     background: `radial-gradient(60% 50% at 50% 45%, #56BED8  0%, ${darkMode ? '#010101' : '#e6faff'} 100%)`,
-    rainbowPegasysGradient: 'linear-gradient(90deg, #19EBCE 0%, #8A15E6 84.28%)',
+    rainbowJingoGradient: 'linear-gradient(90deg, #19EBCE 0%, #8A15E6 84.28%)',
     deepShadow: `0px 10px 24px ${opacify(24, '#00D9EF')}, 10px 0px 24px ${opacify(24, '#8C15E8')}`,
     accentAction: darkMode ? '#153D6F' : '#665EE1',
     accentActionSoft: opacify(24, darkMode ? '#153D6F' : '#665EE1'),
@@ -238,7 +238,7 @@ html {
 export const ThemedGlobalStyle = createGlobalStyle`
 html {
   color: ${({ theme }) => theme.text1};
-  background-color: ${({ theme }) => theme.backgroundPegasys};
+  background-color: ${({ theme }) => theme.backgroundJingo};
 }
 
 .three-line-legend-dark {

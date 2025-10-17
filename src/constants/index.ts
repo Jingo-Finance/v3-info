@@ -11,15 +11,15 @@ const WETH_ADDRESS = '0x4200000000000000000000000000000000000006'
 export const WETH_ADDRESSES = [WETH_ADDRESS]
 
 export const TOKEN_HIDE: { [key: string]: string[] } = {
-  [SupportedNetwork.PLASMA]: ['0x0000000000000000000000000000000000000001'],
+  [SupportedNetwork.INK]: ['0x0000000000000000000000000000000000000001'],
 }
 
 export const POOL_HIDE: { [key: string]: string[] } = {
-  [SupportedNetwork.PLASMA]: ['0x0000000000000000000000000000000000000001'],
+  [SupportedNetwork.INK]: ['0x0000000000000000000000000000000000000001'],
 }
 
 export const START_BLOCKS: { [key: string]: number } = {
-  [SupportedNetwork.PLASMA]: 215160,
+  [SupportedNetwork.INK]: 215160,
 }
 
 export interface WalletInfo {

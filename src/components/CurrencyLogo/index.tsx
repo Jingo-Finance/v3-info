@@ -10,16 +10,16 @@ import { SupportedChainId } from '@pollum-io/sdk-core'
 
 export function chainIdToNetworkName(networkId: SupportedChainId) {
   switch (networkId) {
-    case SupportedChainId.PLASMA:
-      return 'rollux'
+    case SupportedChainId.INK:
+      return 'ink'
     default:
-      return 'rollux'
+      return 'ink'
   }
 }
 
 const getTokenLogoURL = ({ address, chainId }: { address: string; chainId: SupportedChainId }) => {
-  // return `https://raw.githubusercontent.com/pegays-fi/pegasys-tokenlists/master/${chainId}/${address}/logo.png`
-  return `https://raw.githubusercontent.com/pegasys-fi/default-token-list/master/src/logos/570/${address}/logo.png`
+  // return `https://raw.githubusercontent.com/pegays-fi/jingo-tokenlists/master/${chainId}/${address}/logo.png`
+  return `https://raw.githubusercontent.com/jingo-fi/default-token-list/master/src/logos/570/${address}/logo.png`
 }
 
 const StyledLogo = styled(Logo)<{ size: string }>`

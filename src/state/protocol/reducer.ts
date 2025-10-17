@@ -34,7 +34,7 @@ export interface ProtocolState {
 }
 
 export const initialState: ProtocolState = {
-  [SupportedNetwork.PLASMA]: {
+  [SupportedNetwork.INK]: {
     data: undefined,
     chartData: undefined,
     transactions: undefined,

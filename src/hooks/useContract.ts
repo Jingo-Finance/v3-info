@@ -1,6 +1,6 @@
 import { Contract } from '@ethersproject/contracts'
 import { WETH9 } from '@pollum-io/sdk-core'
-import { abi as IUniswapV2PairABI } from '@pollum-io/pegasys-protocol/artifacts/contracts/pegasys-core/interfaces/IPegasysPair.sol/IPegasysPair.json'
+import { abi as IUniswapV2PairABI } from '@pollum-io/jingo-protocol/artifacts/contracts/jingo-core/interfaces/IJingoPair.sol/IJingoPair.json'
 import { SupportedChainId } from 'constants/chains'
 import { useMemo } from 'react'
 
@@ -50,7 +50,7 @@ export function useWETHContract(withSignerIfPossible?: boolean): Contract | null
 export function useArgentWalletDetectorContract(): Contract | null {
   const { chainId } = useActiveWeb3React()
   return useContract(
-    chainId === SupportedChainId.PLASMA ? ARGENT_WALLET_DETECTOR_MAINNET_ADDRESS : undefined,
+    chainId === SupportedChainId.INK ? ARGENT_WALLET_DETECTOR_MAINNET_ADDRESS : undefined,
     ARGENT_WALLET_DETECTOR_ABI,
     false
   )
@@ -61,7 +61,7 @@ export function useENSRegistrarContract(withSignerIfPossible?: boolean): Contrac
   let address: string | undefined
   if (chainId) {
     switch (chainId) {
-      case SupportedChainId.PLASMA:
+      case SupportedChainId.INK:
         address = '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e'
         break
     }

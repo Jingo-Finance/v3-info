@@ -23,7 +23,7 @@ export function getEtherscanLink(
   type: 'transaction' | 'token' | 'address' | 'block',
   networkVersion: NetworkInfo
 ): string {
-  const prefix = `https://explorer.rollux.com`
+  const prefix = `https://explorer.ink.com`
 
   switch (type) {
     case 'transaction': {

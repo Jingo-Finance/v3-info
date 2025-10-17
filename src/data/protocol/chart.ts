@@ -65,11 +65,11 @@ async function fetchChartData(client: ApolloClient<NormalizedCacheObject>) {
       })
       if (!loading) {
         skip += 1000
-        if (chartResData.pegasysDayDatas.length < 1000 || error) {
+        if (chartResData.jingoDayDatas.length < 1000 || error) {
           allFound = true
         }
         if (chartResData) {
-          data = data.concat(chartResData.pegasysDayDatas)
+          data = data.concat(chartResData.jingoDayDatas)
         }
       }
     }

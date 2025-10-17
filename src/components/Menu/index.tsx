@@ -79,7 +79,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/pegasys-fi'
+const CODE_LINK = 'https://github.com/jingo-fi'
 
 export default function Menu() {
   const node = useRef<HTMLDivElement>()

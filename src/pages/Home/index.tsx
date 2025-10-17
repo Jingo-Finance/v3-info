@@ -128,14 +128,14 @@ export default function Home() {
     <PageWrapper>
       <ThemedBackgroundGlobal />
       <AutoColumn gap="16px">
-        <TYPE.main>Pegasys Overview</TYPE.main>
+        <TYPE.main>Jingo Overview</TYPE.main>
         <ResponsiveRow>
           <ChartWrapper>
             <LineChart
               data={formattedTvlData}
               height={220}
               minHeight={332}
-              color={theme.rainbowPegasysGradient}
+              color={theme.rainbowJingoGradient}
               value={liquidityHover}
               label={leftLabel}
               setValue={setLiquidityHover}

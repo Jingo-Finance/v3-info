@@ -1,8 +1,8 @@
-import ROLLUX_LOGO_URL from '../assets/images/Rollux-1.svg'
+import INK_LOGO_URL from '../assets/images/ink-1.svg'
 import { SupportedChainId } from '@pollum-io/sdk-core'
 
 export enum SupportedNetwork {
-  PLASMA,
+  INK,
 }
 
 export type NetworkInfo = {
@@ -18,13 +18,13 @@ export type NetworkInfo = {
 }
 
 export const EthereumNetworkInfo: NetworkInfo = {
-  chainId: SupportedChainId.PLASMA,
-  id: SupportedNetwork.PLASMA,
+  chainId: SupportedChainId.INK,
+  id: SupportedNetwork.INK,
   route: '',
   name: 'Plasma',
   bgColor: '#fc077d',
   primaryColor: '#fc077d',
   secondaryColor: '#2172E5',
-  imageURL: ROLLUX_LOGO_URL,
+  imageURL: INK_LOGO_URL,
 }
 export const SUPPORTED_NETWORK_VERSIONS: NetworkInfo[] = [EthereumNetworkInfo]

@@ -1,3 +1,3 @@
 export enum SupportedChainId {
-  PLASMA = 9745,
+  INK = 57073,
 }

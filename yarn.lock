@@ -2577,9 +2577,9 @@
   resolved "https://registry.yarnpkg.com/@pollum-io/default-token-list/-/default-token-list-0.0.4.tgz#8e102fdc173aefa79b22f5915f591b8c33b23dd4"
   integrity sha512-r5aTrrDa6BT6/TSqYYEeGir406nvOmWka+OL3l8LwR88hWwULsWuYn1hOqMsuP+oc4h5z3+ZjWJS84Elri2hVA==
 
-"@pollum-io/pegasys-protocol@0.0.17":
+"@pollum-io/jingo-protocol@0.0.17":
   version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@pollum-io/pegasys-protocol/-/pegasys-protocol-0.0.17.tgz#742d6ff49e7e5e7b4c68cb300c52d521f4980f70"
+  resolved "https://registry.yarnpkg.com/@pollum-io/jingo-protocol/-/jingo-protocol-0.0.17.tgz#742d6ff49e7e5e7b4c68cb300c52d521f4980f70"
   integrity sha512-JxSe2i5b4gkCdNVvtFpQjIhQbyNKLL55umppYXhfa8xAsQN9sXsiWYI2GQ/L9WXJ+yhEZ0xOESkvYkVn/flsPw==
   dependencies:
     web3 "^1.7.3"
@@ -2602,7 +2602,7 @@
   integrity sha512-Coej0fy5pl1Z1DcT2nzQysgQSY4dKFjMTT9sRsuifKmnaUSgfpLweiRtY2uMe32ieVpcFvD+J46RVghY0S4p8A==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@pollum-io/pegasys-protocol" "0.0.17"
+    "@pollum-io/jingo-protocol" "0.0.17"
     "@pollum-io/v2-core" "0.0.1"
     "@pollum-io/v2-periphery" "0.0.1"
     dotenv "^14.2.0"
@@ -2632,7 +2632,7 @@
   integrity sha512-OIEQTvUD6E3JxMMdEApFzbjn4Yb9UIzS/Ta0CwmLKcwqKOLPwMirfEPmsVeXLhapWH9hIRjJ863ShUJRJeYePQ==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@pollum-io/pegasys-protocol" "0.0.17"
+    "@pollum-io/jingo-protocol" "0.0.17"
     "@pollum-io/v2-core" "0.0.1"
     "@uniswap/lib" "^4.0.1-alpha"
     base64-sol "1.0.1"
@@ -2650,7 +2650,7 @@
   integrity sha512-XjxfhNy8C+v6lgSxzQFaKX2x59zRTVbU2EyUK3IkgcMTDrWRqwHI5eaxn/kVaNzNngA+lYV0y9ofuNIl37VrTg==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@pollum-io/pegasys-protocol" "0.0.17"
+    "@pollum-io/jingo-protocol" "0.0.17"
     "@pollum-io/v3-core" "0.0.1"
     "@uniswap/lib" "^4.0.1-alpha"
     base64-sol "1.0.1"

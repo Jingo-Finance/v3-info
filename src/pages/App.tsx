@@ -157,7 +157,7 @@ export default function App() {
                   <TYPE.label>
                     The Graph hosted network which provides data for this site is temporarily experiencing issues. Check
                     current status{' '}
-                    <ExternalLink href="https://rollux.graph.jingo.finance/subgraphs/name/pollum-io/pegasys-v3">
+                    <ExternalLink href="https://ink.graph.jingo.finance/subgraphs/name/pollum-io/jingo-v3">
                       here.
                     </ExternalLink>
                   </TYPE.label>

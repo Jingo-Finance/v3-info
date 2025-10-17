@@ -54,9 +54,9 @@ export interface Colors {
   blue1: Color
   blue2: Color
 
-  backgroundPegasys: Color
+  backgroundJingo: Color
   background: Color
-  rainbowPegasysGradient: Color
+  rainbowJingoGradient: Color
   deepShadow: Color
   accentAction: Color
   accentActionSoft: Color
